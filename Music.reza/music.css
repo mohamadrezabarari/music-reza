@@ -1,0 +1,498 @@
+@font-face {
+    font-family: "yekan";
+    src: url(./fonts/Yekan.eot);
+    src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"), url(./fonts/Yekan.woff) format("woff"), url(./fonts/Yekan.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+0600-U+06FF;
+    /* For Persian character range */
+}
+
+body {
+    font-family: "yekan";
+    direction: rtl;
+    background-color: black;
+    color: white;
+}
+
+
+.background-1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(./image/background/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #00000091;
+    padding-top: 20px;
+    box-shadow: 0px 3px 5px;
+}
+
+.header:hover {
+    background-color: #00000061;
+    color: blue;
+}
+
+.icon0 {
+    text-align: center;
+}
+
+.icon1 {
+    position: fixed;
+    top: 15px;
+    right: 30px;
+    cursor: pointer;
+    color: gray;
+}
+
+.icon1:hover {
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.icon2 {
+    cursor: pointer;
+    color: grey;
+}
+
+.icon2:hover {
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.ul1 li {
+    padding: 0px 12px;
+    font-size: 16px;
+    display: inline;
+    color: white;
+}
+
+.ul1 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* sectoin1 */
+/* ------------------------------------------------------------------------ */
+.sectoin1 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.sec01 {
+    font-size: 60px;
+}
+
+.sec02 {
+    padding-top: 20px;
+    font-size: 45px;
+}
+
+.p01 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.but00 {
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+.but01 {
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+
+.but01:hover {
+    padding: 10px 35px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 1px 10px;
+    background-color: #00000041;
+    color: white;
+}
+
+.p02 {
+    padding-top: 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+/* section2 */
+/* ------------------------------------------------------------------------- */
+.section2 {
+    margin-top: 30px;
+}
+
+.sec03 {
+    text-align: center;
+}
+
+.p03 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.p04 {
+    padding-top: 50px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.img0 {
+    width: 100px;
+    height: 80px;
+}
+
+.img1 {
+    border-radius: 20px;
+}
+
+.img2 {
+    border-radius: 20px;
+}
+
+.img1:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 15px;
+}
+
+.img2:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 15px;
+}
+
+/* section3 */
+/* --------------------------------------------------------------- */
+.section3 {
+    margin-top: 30px;
+}
+
+.img3 {
+    border-radius: 20px;
+}
+
+.img4 {
+    border-radius: 20px;
+}
+
+.img4:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 15px;
+}
+
+.img3:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 15px;
+}
+
+.sec04 {
+    text-align: center;
+    width: 110px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+.p05 {
+    font-size: 20px;
+}
+
+.p06 {
+    font-size: 15px;
+}
+
+.but02 {
+    padding-top: 40px;
+}
+
+.but03 {
+    padding: 5px 26px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.but03:hover {
+    background-color: black;
+    color: white;
+}
+
+/* section4 */
+/* ---------------------------------------------------------------------- */
+.section4 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.i1 {
+    padding: 5px 10px;
+}
+
+.i2 {
+    padding: 5px 10px;
+}
+
+.i3 {
+    padding: 5px 10px;
+}
+
+.i4 {
+    padding: 5px 10px;
+}
+
+.i5 {
+    padding: 5px 10px;
+}
+
+.i1:hover {
+    color: forestgreen;
+}
+
+.i2:hover {
+    color: red;
+}
+
+.i3:hover {
+    color: gold;
+}
+
+.i4:hover {
+    color: blue;
+}
+
+.i5:hover {
+    color: rgb(245, 7, 134);
+}
+
+/* section5 */
+/* ------------------------------------------------------------------------------------ */
+.section5 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.img5 {
+    padding-top: 50px;
+}
+
+.colmd4 {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.ul li {
+    display: block;
+}
+
+.li01 {
+    font-size: 20px;
+}
+
+.section6 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section7 {
+    margin-top: 80px;
+}
+
+.sec7 {
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.sec7:hover {
+    transition: 0.5s;
+    box-shadow: 0px 5px 15px;
+}
+
+.secimg {
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.secimg:hover {
+    padding: 0px;
+    transition: 1s;
+    border-radius: 15px;
+}
+
+/* section8 */
+/* ------------------------------------------------------------------- */
+.section8 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.secp {
+    width: 500px;
+    margin: auto;
+}
+
+.sec-p1 {
+
+    font-size: 30px;
+}
+
+.secbutton {
+    padding-top: 40px;
+}
+
+.sec-but {
+    padding: 5px 20px;
+    border-radius: 15px;
+    border-color: darkblue;
+}
+
+.sec-but:hover {
+    padding: 8px 30px;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px;
+    border-color: white;
+}
+
+.sec-p2 {
+    font-size: 20px;
+}
+
+.sec-p2:hover {
+    color: #6c757d;
+}
+
+.sec-p3 {
+    color: #6c757d;
+}
+
+/* sectoin19 */
+/* -------------------------------------------------------------- */
+.section9 {
+    width: 100%;
+    height: 400px;
+    background-image: url(./image/background/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+.section09 {
+    padding-top: 150px;
+}
+
+.p09 {
+    font-size: 20px;
+}
+
+/* section10 */
+/* ------------------------------------------------------------------ */
+.section10 {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.sec10 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.secimg10 {
+    border-radius: 25px;
+}
+
+.secimg10:hover {
+    border: 1px solid white;
+    box-shadow: 0px 0px 15px;
+}
+
+.aeza {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+/* footer */
+/* /////////////////////////////////////////////////////////////////////// */
+.footer{
+    width: 100%;
+    height: auto;
+    background-image: url(./image/background/14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.footer1{
+    padding-top: 150px;
+    text-align: center;
+}
+.footer2{
+    padding-top: 100px;
+    text-align: center;
+}
+.footer3{
+    font-size: 20px;
+}
+.footer4{
+    padding-top: 70px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.f1{
+    padding: 0px 30px;    
+}
+.f2{
+    padding: 0px 30px;
+}
+
+.f3{
+    padding: 0px 30px;
+}
+
+.f4{
+    padding: 0px 30px;
+}
+
+.f5{
+    padding: 0px 30px;
+}
+
+
+
+.f1:hover{
+    color: blueviolet;
+}
+.f2:hover{
+    color: blueviolet;
+}
+.f3:hover{
+    color: blueviolet;
+}
+.f4:hover{
+    color: blueviolet;
+}
+.f5:hover{
+    color: blueviolet;
+}
+
+
+.hr{
+    padding-bottom: 70px;
+}
